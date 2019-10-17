@@ -47,8 +47,8 @@ h1 {
 
 
 /* a {
-  text-decoration: none;
-  color: black;
+text-decoration: none;
+color: black;
 } */
 .fa {
   padding: 20px;
@@ -60,7 +60,7 @@ h1 {
 }
 
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .fa-facebook {
@@ -94,9 +94,9 @@ h1 {
   display: grid;
 
   grid-template-areas:
-    "header header header"
-    "nav content side"
-    "footer footer footer";
+  "header header header"
+  "nav content side"
+  "footer footer footer";
 
   grid-template-columns: 200px 1fr 200px;
   grid-template-rows: auto 1fr auto;
@@ -166,39 +166,39 @@ footer {
 }
 
 .hero {
-    width: 100vw;
-    height: 100vh;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url('https://digitalhumanities.duke.edu/sites/digitalhumanities.duke.edu/files/tableaudashboard.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url('https://digitalhumanities.duke.edu/sites/digitalhumanities.duke.edu/files/tableaudashboard.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .hero h1 {
-    font-size: 5em;
-    margin-top: 0;
-    margin-bottom: 0.5em;
+  font-size: 5em;
+  margin-top: 0;
+  margin-bottom: 0.5em;
 }
 
 .hero .btn {
-    display: block;
-    width: 200px;
-    padding: 1em;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
-    text-decoration: none;
-    font-size: 1.5em;
-    border: 3px solid white;
-    border-radius: 20px;
-    background-color: #36454f;
+  display: block;
+  width: 200px;
+  padding: 1em;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  border: 3px solid white;
+  border-radius: 20px;
+  background-color: #36454f;
 }
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
 blockquote{
@@ -244,6 +244,6 @@ blockquote span{
 }
 
 .zoom:hover {
-  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(3.6); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 }
