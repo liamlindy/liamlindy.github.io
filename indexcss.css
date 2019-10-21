@@ -127,7 +127,7 @@ nav {
 main {
   grid-area: content;
   padding: 10px;
-  color: #808080;
+  /* color: #808080; */
   background-color: #76c1d4;
 }
 main h1{
