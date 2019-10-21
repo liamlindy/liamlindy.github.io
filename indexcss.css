@@ -250,7 +250,13 @@ blockquote span{
 }
 
 img .zoom{
-width: auto;
+  width: 20%;
+  height: auto;
+  padding: 10px 10px;
+  background-color: #36454f;
+  border: 3px solid white;
+  border-radius: 10px;
+  margin-right: 15px;
 }
 
 .zoom:hover {
