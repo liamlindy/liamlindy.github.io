@@ -283,12 +283,7 @@ form {
   	margin: 0 auto;
 }
 
-div {
-    position: relative;
-    background: white;
-    border-bottom: 1px solid #ccc;
 
-}
 label {
       opacity: 0.3;
       font-weight: bold;
