@@ -279,7 +279,7 @@ blockquote span{
 
 
 form {
-	max-width: 450px;
+	max-width: 90%;
   	margin: 0 auto;
 }
 
@@ -294,7 +294,7 @@ label {
 
 input[type="submit"] {
     display: block;
-    width: 100%;
+    width: 80%;
     margin: 20px 0;
     background: #41D873;
     color: white;
@@ -304,7 +304,7 @@ input[type="submit"] {
 }
 input[type="text"],
 input[type="number"] {
-      width: 100%;
+      width: 80%;
       border: 0;
       padding: 20px 20px 20px 150px;
       background: #eee;
