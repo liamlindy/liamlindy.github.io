@@ -315,14 +315,7 @@ input[type="number"] {
       background: #eee;
 }
 
-body {
-  background: #333;
-  font-family: 'PT Sans', sans-serif;
-  padding: 20px;
-}
-* {
-  box-sizing: border-box;
-}
+
 
 .storybox {
 	max-width: 450px;
