@@ -48,15 +48,7 @@
           </table>
 
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div style="text=align: center;">
-          <a href="whatIKnow.html" class="my-button">My Technical Skills & Abilities</a>
-          <a href="whatIKnow.html" class="my-button">About What I Know About Various Domains</a>
-          <a href="whatIKnow.html" class="my-button">Experiences I've Had</a>
-        </div>
+
         <div id="whatothershavesaid">
           <h1>What My Bosses Have Said</h1>
           <blockquote> Liam is a self-learner who always welcomes tough analytical challenges. For example, when
@@ -85,8 +77,36 @@
         </div>
         <div id="howtocontactme"style = "text-align: center;">
           <h1>Contact Me</h1>
-          <strong>I can be contacted via  <a href= "mailto:llindy@elon.edu? subject = Inquiry Contact">email</a> or at the social media tabs below. Thank you for checking out my portfolio.</strong>
-        </div>
+          <strong>I can be contacted directly via  <a href= "mailto:llindy@elon.edu? subject = Inquiry Contact">email</a> or at the social media tabs below. Thank you for checking out my portfolio.</strong>
+          <div>
+            <input required type="text" id="noun1" placeholder=" ">
+            <label for="noun1">Noun</label>
+            <span id='noun1Error'></span>
+          </div>
+          <div>
+            <input required type="text" id="noun2" placeholder=" ">
+            <label for="noun2">Noun</label>
+            <span id='noun2Error'></span>
+          </div>
+          <div>
+            <input required type="text" id="ptverb" placeholder=" ">
+            <label for="ptverb">Past Tense Verb</label>
+            <span id='ptverbError'></span>
+          </div>
+          <div>
+            <input required type="text" id="adverb" placeholder=" ">
+            <label for="adverb">Adverb</label>
+            <span id='adverbError'></span>
+          </div>
+          <div>
+            <input required type="number" id="number1" pattern="[0-9]" placeholder=" ">
+            <label for="number1">Number</label>
+            <span id='number1Error'></span>
+          </div>
+          <input type='submit' value='Make my story!'>
+        </form>
+<div class="storybox" id="story"></div>
+</div>
       </section>
 
     </main>
