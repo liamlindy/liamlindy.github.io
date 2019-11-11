@@ -268,3 +268,67 @@ blockquote span{
   transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 }
+
+/*  PROJECT 5*/
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
+.emphasis{
+  color: black;
+  text-decoration: underline;
+}
+
+
+form {
+	max-width: 450px;
+  	margin: 0 auto;
+}
+
+div {
+    position: relative;
+    background: white;
+    border-bottom: 1px solid #ccc;
+
+}
+label {
+      opacity: 0.3;
+      font-weight: bold;
+      position: absolute;
+      top: 22px;
+      left: 20px;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    background: #41D873;
+    color: white;
+    border: 0;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+input[type="text"],
+input[type="number"] {
+      width: 100%;
+      border: 0;
+      padding: 20px 20px 20px 150px;
+      background: #eee;
+}
+
+body {
+  background: #333;
+  font-family: 'PT Sans', sans-serif;
+  padding: 20px;
+}
+* {
+  box-sizing: border-box;
+}
+
+.storybox {
+	max-width: 450px;
+  	margin: 0px auto;
+  	border: 0;
+  	padding 20px;
+  	font-size: 1.2rem;
+  	background: white;
+}
