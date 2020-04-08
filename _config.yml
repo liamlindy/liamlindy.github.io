@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Liam Lindy"
-  avatar           : "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/photos/bio-photo.jpg"
   bio              : "I am an **amazing** person."
   location         : "Raleigh, NC"
   email            : "liam.lindy@gmail.com"
